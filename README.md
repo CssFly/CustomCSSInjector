@@ -6,7 +6,7 @@ License: M.I.T.
 
 Usage: 
 
-1. insert <script src="path/to/CustomCSS.js"></script> before closing </head> tag in your HTML
+1. insert <script src="path/to/CustomCSSInjector.js"></script> before closing </head> tag in your HTML
        
 2. external style sheets will be injected here
 
