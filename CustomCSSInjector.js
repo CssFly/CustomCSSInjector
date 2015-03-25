@@ -7,7 +7,7 @@
 #
 # License: M.I.T.
 #
-# Usage: 1. insert <script src="path/to/CustomCSS.js"></script> before closing </head> tag in your HTML
+# Usage: 1. insert <script src="path/to/CustomCSSInjector.js"></script> before closing </head> tag in your HTML
 #        2. external style sheets will be injected here
 #        3. you can activate the injection of external CSS by modifing the URL of your page, e.g. by URL-Parameter
 #
