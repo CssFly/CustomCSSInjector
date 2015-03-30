@@ -68,7 +68,7 @@ CustomCSSInjector.prototype._stripInvalidCSSURLs = function()
        {
          window.console.error('CustomCSSInjector: ' + url + ' is not a valid CSS URL.');
        }
-       return  isValid ? url : null;
+       return  isValid ? url.replace(/</g, '&lt;') : null;
      }).filter(function(e){ return e; }).join(',');
   }
 };
