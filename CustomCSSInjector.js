@@ -13,6 +13,7 @@
 #
 #           http://www.example.com/?customCSSpath=http://www.otherpage.com/style.css OR by Hash:
 #           http://www.example.com/#customCSSpath=http://www.otherpage.com/style.css
+#           http://www.example.com/#customCSSpath=http://www.example.com/otherStyle.css
 #           http://www.example.com/#customCSSpath=http://www.otherpage.com/style_1.css,http://www.otherpage.com/style_2.css
 #
 #           This will create a localStorage entry that serves the referenced CSS file by magic until you
